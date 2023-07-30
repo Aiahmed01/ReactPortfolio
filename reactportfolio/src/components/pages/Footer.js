@@ -20,13 +20,13 @@ export default function Footer() {
         <div className='container mt-1'>
           <div className='row'>
             <div className='col'>
-              <a href='https://github.com/Aiahmed01' target='_blank' rel='noopener noreferrer' className='social-icon m-3'>
+              <a href='https://github.com/Aiahmed01' target='_blank' rel='noopener noreferrer' className='social-icon m-3 footIcon'>
                 <FaGithub size={30} />
               </a>
-              <a href='https://www.linkedin.com/in/abdulla-ahmed-85839910a' target='_blank' rel='noopener noreferrer' className='social-icon m-3'>
+              <a href='https://www.linkedin.com/in/abdulla-ahmed-85839910a' target='_blank' rel='noopener noreferrer' className='social-icon m-3 footIcon'>
                 <FaLinkedin size={30} />
               </a>
-              <a href='mailto:abdullabrhm@gmail.com' className='social-icon m-3'>
+              <a href='mailto:abdullabrhm@gmail.com' className='social-icon m-3 footIcon'>
                 <FaEnvelope size={30} />
               </a>
             </div>

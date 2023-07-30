@@ -7,7 +7,7 @@ export default function Card(props) {
       <div className='row justify-content-center footer'>
         <div className='col-md-6'>
           <div className='card p-4'>
-            <h5 className='card-title text-center'>Contact Me</h5>
+            <h2 className='card-title text-center'>Contact Me</h2>
             <form>
               <div className='mb-3'>
                 <label htmlFor='name' className='form-label'>
