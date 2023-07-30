@@ -1,5 +1,5 @@
 import React from 'react'
-import MernImage from '../Images/Mern.png'
+import MernImage from './Images/Mern.png'
 export default function Card(props) {
     const mern = MernImage
   return (

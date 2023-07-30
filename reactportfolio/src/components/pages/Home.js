@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import myImages from '../Images/cp.jpg';
+import myImages from './Images/cp.jpg';
 import Card from './Card';
 
 export default function Home() {
@@ -10,7 +10,6 @@ export default function Home() {
     borderRadius: '40%'
  };
   const name = 'Abdulla Ahmed';
-
 
   return (
     <Card images= {myImages} style={styleSz} name={name}/>

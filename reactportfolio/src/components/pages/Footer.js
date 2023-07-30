@@ -5,8 +5,19 @@ import '../index.css'
 
 export default function Footer() {
     return (
+      <>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+     
       <footer className='text-dark text-center footer-container' style={{ backgroundColor: '#e3f2fd' }} >
-        <div className='container mt-5'>
+        <div className='container mt-1'>
           <div className='row'>
             <div className='col'>
               <a href='https://github.com/Aiahmed01' target='_blank' rel='noopener noreferrer' className='social-icon m-3'>
@@ -27,5 +38,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
+      </>
     );
   }

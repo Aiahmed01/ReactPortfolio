@@ -1,17 +1,7 @@
 import React, { useEffect } from 'react';
 
-export default function Navbar() {
-  useEffect(() => {
-    // Initialize Bootstrap Navbar Toggle on mount
-    const toggle = document.getElementById('navbarNavAltMarkup');
-    const btnToggle = document.getElementById('navbarBtnToggle');
+export default function Navbar({ currentPage, handlePageChange }) {
 
-    if (toggle && btnToggle) {
-      btnToggle.addEventListener('click', () => {
-        toggle.classList.toggle('show');
-      });
-    }
-  }, []);
 
   return (
     <div>
@@ -32,26 +22,34 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
+                         {/* ----------------------------------------------------------------------- */}
               <button type="button" className="btn btn-outline-primary m-2 btn-sm">
-                <a className="nav-link " aria-current="page" href="./index.html">
+                <a onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} aria-current="page" href="#home" >
                   HOME
                 </a>
               </button>
+                         {/* ----------------------------------------------------------------------- */}
+
               <button type="button" className="btn btn-outline-primary m-2 btn-sm">
-                <a className="nav-link" href="#">
+              <a onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} aria-current="page" href="#About" >
                   ABOUT ME
                 </a>
               </button>
+                         {/* ----------------------------------------------------------------------- */}
+
               <button type="button" className="btn btn-outline-primary m-2 btn-sm">
-                <a className="nav-link" href="#">
+              <a onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} aria-current="page" href="#Portfolio" >
                   PORTFOLIO
                 </a>
               </button>
+                         {/* ----------------------------------------------------------------------- */}
+
               <button type="button" className="btn btn-outline-primary m-2 btn-sm">
-                <a className="nav-link" href={<contact/>}>
+              <a onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} aria-current="page" href="#Contact" >
                   CONTACT
                 </a>
               </button>
+         
             </div>
           </div>
         </div>
