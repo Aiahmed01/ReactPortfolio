@@ -1,8 +1,8 @@
 {
-  "name": "reactportfolio",
+  "name": "ReactPortfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aiahmed01.github.io/reactportfolio",
+  "homepage": "https://github.com/Aiahmed01/ReactPortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
