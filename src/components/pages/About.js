@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 
 export default function About() {
-
+  const bg = {
+    backgroundColor:'rgb(168, 199, 202)'
+  }
   return (
     <>
 
@@ -9,7 +11,7 @@ export default function About() {
       <div className="row">
         <div className="col-md-8 mx-auto">
           <h2 className="text-center">Abdulla Ahmed</h2>
-          <p className="text-center bg-light">abdullabrhm@gmail.com | +16128865730</p>
+          <p className="text-center">abdullabrhm@gmail.com | +16128865730</p>
           <p className="text-center">
             <a href="https://www.linkedin.com/in/abdulla-ibrahim-85839910a"  target="_blank" rel="noopener noreferrer">
               <h5 className=''>Click Here for my LinkedIn Page </h5>
@@ -19,7 +21,7 @@ export default function About() {
           <hr />
 
           <h4 className="text-center">Summary</h4>
-          <p className="text-center bg-light">
+          <p className="text-center" style={bg}>
             Hi, I'm Abdulla, a Passionate Full-Stack Software Engineer! Seeking Junior/Entry-Level Opportunities in Full-Stack Development or Front-End Engineering.
             Specializing in Web Development, JavaScript, React, Node.js, HTML, CSS.
             Experienced in Agile Development, Version Control (Git), and Testing.
@@ -34,7 +36,7 @@ export default function About() {
 
           <h4 className="text-center">Experience</h4>
           <div className="card">
-            <div className="card-body">
+            <div className="card-body" style={bg}>
               <h5 className="card-title">Asset Management Specialist</h5>
               <p className="card-text">Olympic Financial Group</p>
               <p className="card-text">May 2021 - Present (2 years 2 months)</p>
@@ -45,7 +47,7 @@ export default function About() {
 
           <h4 className="text-center">Education</h4>
           <div className="card">
-            <div className="card-body">
+            <div className="card-body" style={bg}>
               <h5 className="card-title">University of Minnesota Boot Camps</h5>
               <p className="card-text">Full Stack Development, Computer Software Engineering</p>
               <p className="card-text">Feb 2023 - Aug 2023</p>
@@ -58,7 +60,7 @@ export default function About() {
           <hr />
 
           <h4 className="text-center">Skills</h4>
-          <p className="text-center bg-light">
+          <p className="text-center" style={bg}>
             Front-End Development • Back-End Web Development • JavaScript • GitHub • Heroku • HTML • Cascading Style Sheets (CSS)
           </p>
 
@@ -66,7 +68,7 @@ export default function About() {
 
           <h4 className="text-center">Honors & Awards</h4>
           <div className="card">
-            <div className="card-body">
+            <div className="card-body" style={bg}>
               <h5 className="card-title">Certificate of Appreciation - ADNOC</h5>
               <p className="card-text">Mar 2021</p>
               <p className="card-text ">

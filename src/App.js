@@ -6,10 +6,10 @@ import PortfolioHandler from './components/PortfolioHandler';
 
 function App() {
 
-  
+
   return (
     <>
-<PortfolioHandler />
+<PortfolioHandler  />
 </>
   );
 }
