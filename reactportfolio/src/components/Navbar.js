@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import mir from './pages/Images/7.png'
 export default function Navbar({ currentPage, handlePageChange }) {
  
