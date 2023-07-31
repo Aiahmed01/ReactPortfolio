@@ -9,17 +9,17 @@ export default function About() {
       <div className="row">
         <div className="col-md-8 mx-auto">
           <h2 className="text-center">Abdulla Ahmed</h2>
-          <p className="text-center">abdullabrhm@gmail.com | +16128865730</p>
+          <p className="text-center bg-light">abdullabrhm@gmail.com | +16128865730</p>
           <p className="text-center">
-            <a href="https://www.linkedin.com/in/abdulla-ibrahim-85839910a" target="_blank" rel="noopener noreferrer">
-              linkedin.com/in/abdulla-ibrahim-85839910a
+            <a href="https://www.linkedin.com/in/abdulla-ibrahim-85839910a"  target="_blank" rel="noopener noreferrer">
+              <h5 className=''>Click Here for my LinkedIn Page </h5>
             </a>
           </p>
 
           <hr />
 
           <h4 className="text-center">Summary</h4>
-          <p className="text-center">
+          <p className="text-center bg-light">
             Hi, I'm Abdulla, a Passionate Full-Stack Software Engineer! Seeking Junior/Entry-Level Opportunities in Full-Stack Development or Front-End Engineering.
             Specializing in Web Development, JavaScript, React, Node.js, HTML, CSS.
             Experienced in Agile Development, Version Control (Git), and Testing.
@@ -58,7 +58,7 @@ export default function About() {
           <hr />
 
           <h4 className="text-center">Skills</h4>
-          <p className="text-center">
+          <p className="text-center bg-light">
             Front-End Development • Back-End Web Development • JavaScript • GitHub • Heroku • HTML • Cascading Style Sheets (CSS)
           </p>
 

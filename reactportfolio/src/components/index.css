@@ -24,13 +24,13 @@ code {
 .mern-image {
   border-radius: 10%;
   max-width: 100%;
-  opacity: 0.4;
+  opacity: 0.2;
   transition: opacity 0.3s ease; 
 }
 
-/* .mern-image:hover {
-  opacity: 0.2; 
-} */
+ .mern-image:hover {
+  opacity: 0.9; 
+} 
 
 .footIcon{
   opacity: 0.2;
@@ -39,6 +39,3 @@ code {
   opacity: 1;
 }
 
-.myTheme{
-  background-color: #e3f2fd;
-}

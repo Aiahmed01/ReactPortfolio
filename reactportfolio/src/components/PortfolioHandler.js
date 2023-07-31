@@ -5,9 +5,9 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 import About from './pages/About';
-import Portofolio from './pages/Portfolio';
-
+import Portfolio from './pages/Portfolio';
 function PortfolioHandler() {
+
     const [currentPage, setCurrentPage] = useState('Home');
 
     const renderPage = () => {
@@ -18,7 +18,7 @@ function PortfolioHandler() {
           return <About />;
         }
         if (currentPage === 'Portfolio') {
-          return <Portofolio />;
+          return <Portfolio />;
         }
         return <Contact />;
       };
@@ -34,4 +34,4 @@ function PortfolioHandler() {
   );
 }
 
-export default PortfolioHandler;
+export default PortfolioHandler; 

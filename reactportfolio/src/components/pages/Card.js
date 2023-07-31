@@ -2,15 +2,18 @@ import React from 'react'
 import MernImage from './Images/Mern.png'
 export default function Card(props) {
     const mern = MernImage
+    const bg = {
+      backgroundColor:'rgb(168, 199, 202)'
+    }
     const handleImgClick = ()=> {
       console.log('I have some familiarity with those 😆')
     }
   return (
     <>
-     <div className='d-flex justify-content-center m-1'>
+     <div className='d-flex justify-content-center m-3'>
 
 
-<div className="card">
+<div className="card" style={bg}>
 
   <img src={props.images} style={props.style} className="card-img-top m-4" alt="Card image" />
 

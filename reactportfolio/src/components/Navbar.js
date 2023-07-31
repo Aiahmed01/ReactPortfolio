@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import mir from './pages/Images/7.png'
 export default function Navbar({ currentPage, handlePageChange }) {
-const abod = mir
+ 
 
   return (
     
@@ -9,7 +9,7 @@ const abod = mir
     <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#e3f2fd' }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src={abod} alt="Logo" /> Abdulla'sSpace
+          <img src={mir} alt="Logo" /> Abdulla'sSpace
         </a>
         <button
           className="navbar-toggler"

@@ -4,8 +4,11 @@ import gitImg from './Images/65.svg'
 import '../index.css'
 
 export default function Portfolio() {
+  const bg = {
+    backgroundColor:'rgb(168, 199, 202)'
+  }
   const [projects, setProjects] = useState([]);
-const cardImg = gitImg
+
 const gitStyle = {
   maxWidth: '70%',
   maxHeight: '200px',
@@ -30,15 +33,15 @@ const limitedProjects = projects.slice(-6);
   return (
     <>
 
-        <div className="container py-5">
+        <div className="container py-5 ">
 
       <h1 className="text-center">ShowCase</h1>
 
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
         {limitedProjects.map(project => (
           <div key={project.id} className="col">
-            <div className="card h-100 myTheme">
-              <img src={cardImg} style={gitStyle} className="card-img-top " alt={project.full_name} />
+            <div className="card h-100" style={bg}>
+              <img src={gitImg} style={gitStyle} className="card-img-top " alt={project.full_name} />
               <div className="card-body">
                 <h5 className="card-title">{project.name}</h5>
                 <a href={project.html_url} className="card-text">View Repo</a>
