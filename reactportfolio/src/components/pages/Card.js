@@ -1,7 +1,6 @@
 import React from 'react'
-import MernImage from './Images/Mern.png'
+import mern from '../pages/Images/Mern.png'
 export default function Card(props) {
-    const mern = MernImage
     const bg = {
       backgroundColor:'rgb(168, 199, 202)'
     }
