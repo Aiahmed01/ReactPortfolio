@@ -1,15 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
+import '../index.css'
+
 
 export default function Card(props) {
+  const [buttonClicked, setButtonClicked] = useState(false);
+
   const bg = {
     backgroundColor:'rgb(168, 199, 202)'
   }
+
+  const handleButtonClick = () => {
+    setButtonClicked(true);
+    setTimeout(() => {
+      setButtonClicked(false);
+    }, 1000);
+  };
+
   return (
     <div >
     <div className='container py-3'>
       <div className='row justify-content-center footer'>
         <div className='col-md-6'>
-          <div className='card p-4' style={bg}>
+          <div  className={`card p-4 ${buttonClicked ? 'animate-button-escape' : ''}`}
+              style={bg}>
             <h2 className='card-title text-center'>Contact Me</h2>
             <form>
               <div className='mb-3'>
@@ -37,7 +50,8 @@ export default function Card(props) {
                 ></textarea>
               </div>
               <div className='d-grid'>
-                <button type='submit' className='btn btn-success'>
+                <button type='submit' className={`btn btn-success ${buttonClicked ? 'disabled' : ''}`}
+                    onClick={handleButtonClick}>
                   Submit
                 </button>
               </div>

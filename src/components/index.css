@@ -39,3 +39,23 @@ code {
   opacity: 1;
 }
 
+.animate-button-escape {
+  animation: buttonEscapeAnimation 1s ease-in-out;
+}
+
+@keyframes buttonEscapeAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+
+
+
+
