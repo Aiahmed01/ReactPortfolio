@@ -25,7 +25,7 @@ View the live demo: [Your Demo Link Here](https://aiahmed01.github.io/ReactPortf
 SEE THE PORTFOLIO PAGE IN DEPLOYED.
 ## Deployment
 
-The portfolio is deployed using GitHub Pages: [View Portfolio](https://aiahmed01.github.io/react-portfolio/)
+The portfolio is deployed using GitHub Pages: [View Portfolio](https://aiahmed01.github.io/ReactPortfolio/)
 
 ## Contact
 
