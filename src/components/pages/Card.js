@@ -24,9 +24,9 @@ export default function Card(props) {
     <p className="card-text" >
        I'm {props.name}. 🤓</p>
       <p>I'm a Software Engineer AKA Full Stack application developer. </p>
-      <p>passionate about creating beautiful and functional websites.</p>
-      <p>click Portfolio to see some of my work 🏔 ⛰ 🌋</p>
-    <img src={mern}  onClick = {handleImgClick} className="mern-image btn btn-primary"/>
+      <p>Passionate about creating beautiful and functional websites.</p>
+      <p>Click the MERN Image to download my resume 🏔 ⛰ 🌋</p>
+    <a href='https://docs.google.com/document/d/1FXEzf187iVNuXznW-Ndlb_iMA7eG9CQG/edit?usp=sharing&ouid=111223800472406090912&rtpof=true&sd=true' target="_blank"> <img src={mern}  onClick = {handleImgClick} className="mern-image btn btn-primary"/> </a>
    
   </div>
 </div>
